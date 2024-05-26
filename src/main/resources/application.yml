@@ -12,7 +12,7 @@ eureka:
 ## Configuration for App name and Spring Data
 spring:
   application:
-    name: microservice
+    name: ${APP_NAME:microservice}
   datasource:
     url: jdbc:h2:mem:testdb
   jpa:
